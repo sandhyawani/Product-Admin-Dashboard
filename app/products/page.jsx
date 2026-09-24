@@ -470,7 +470,7 @@ function ProductsPageContent() {
                       </td>
 
                       <td className="px-5 py-4 text-gray-600">{product.category}</td>
-                      <td className="px-5 py-4 font-medium">${product.price}</td>
+                      <td className="px-5 py-4 font-medium">₹{product.price}</td>
 
                       <td className="px-5 py-4">
                         <span className="rounded-full bg-yellow-50 px-2.5 py-1 text-sm text-yellow-700">
@@ -516,7 +516,7 @@ function ProductsPageContent() {
                   <div className="min-w-0 flex-1">
                     <h2 className="font-semibold text-gray-900">{product.title}</h2>
                     <p className="mt-1 text-sm text-gray-500">{product.category}</p>
-                    <p className="mt-2 font-medium">${product.price}</p>
+                    <p className="mt-2 font-medium">₹{product.price}</p>
 
                     <div className="mt-2 flex gap-3 text-sm">
                       <span>★ {product.rating ?? 0}</span>

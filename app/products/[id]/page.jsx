@@ -308,7 +308,7 @@ export default function ProductDetailsPage() {
               <div className="mt-6">
 
                 <span className="text-3xl font-bold">
-                  ${product.price}
+                  ₹{product.price}
                 </span>
 
                 {product.discountPercentage && (
